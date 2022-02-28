@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+*{
+    transition: all 0.3s ease;
+}
+header{
+height: 50px;
+padding: 20px;
+margin-top: 20px;
+/* border: 2px solid black; */
+display: flex;
+font-family: 'Fredoka', sans-serif;
+font-weight: 700;
+}
+header .logo{
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+#navl{
+    position: absolute;
+}
+#navl div{
+    position: relative;
+    display: inline;
+    left: 550px;
+    padding: 3px;
+    margin:20px;
+    color: rgb(184, 178, 178);
+}
+#navl div:hover{
+ color: black;
+ border-bottom: 3.5px solid rgb(73, 76, 255);
+}
+header #you{
+    position: absolute;
+    right: 29px;
+    top:21px;
+    padding: 20px;
+    border-radius: 25px;
+    color: rgb(73, 76, 255);
+    background-color: #ffbfbf;
+}
+header #you:hover{
+    color: #fff;
+    background-color:rgb(73, 76, 255);
+}
+article{
+    margin: 3em 9em 0 9em;
+}
+article h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 92px;
+    display: inline;
+}
+article span{
+    color: rgb(73, 76, 255);
+}
+.land{
+    position:absolute;
+    right: 0;
+    top: 130px;
+    left: 650px;
+    border: 2px solid blacka;
+}
+article div{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:19.6px;
+    color: gray;
+    margin-bottom: 40px;
+}
+article .new{
+    display: flex;
+    padding: 10px;
+}
+article .new > div{
+    border-radius:26px;
+    padding: 18px 30px;
+    color:#fff;
+    margin-right:30px;
+    background-color: rgb(73, 76, 255);
+}
+article .new > div:hover{
+    color:rgb(73, 76, 255);
+    background-color: #ffbfbf;
+}
+.group>image{
+    
+    width: 100%;
+}
+.group{
+    display: flex;
+    width: 30%;
+    padding:12px;
+    margin: 0;
+    margin-bottom: 2px;
+    /* justify-content: space-between; */
+    /* justify-content: flex-start; */
+    line-height: -2.2px;
+    background-color: rgb(250, 248, 248);
+    border-radius: 10px;
+    align-items: center;
+}
+.group:hover{
+    background-color: #fff;
+    border-image-source: url(/images/tick-gray.png);
+    border-radius: 20px;
+    box-shadow: 10px 7px 10px -9px;
+}
+.men label{
+margin-left: 20px;
+}
+.mask{
+    position: relative;
+}
+.bd{
+ margin-left: 16px;   
+}
+.bg{
+    position:absolute;
+    height: 30px;
+    transition: all 0.3s ease;
+    /* visibility: hidden; */
+}
+.bg:hover{
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    visibility: hidden;
+}
+.im{
+    align-items: center;
+}
+#date{
+    color: rgb(177, 174, 174);
+    position: absolute;
+    left: 410px;
+}
+.im{
+    position:relative;
+    left: 40px;
+}
+.im1{
+    position:relative;
+    left: 16px;
+}
+.im2{
+    position:relative;
+    left: 60px;
+}
+.im3{
+    position:relative;
+    left: 75px;
+}
+.tag{
+    position: absolute;
+    left: 396px;
+    display: flex;
+    margin-left: 110px;
+    padding: 5px 10px;
+    border-radius: 29px;
+    background-color: #FED7DA;
+}
+.tag2{
+    position: absolute;
+    left: 396px;
+    display: flex;
+    margin-left: 110px;
+    padding: 5px 10px;
+    border-radius: 29px;
+    background-color: #FD6534;
+}
+.tag3{
+    position: absolute;
+    left: 398px;
+    display: flex;
+    margin-left: 110px;
+    padding: 5px 10px;
+    border-radius: 29px;
+    background-color: #9ED095;
+}
+.tag4{
+    position: absolute;
+    left: 380px;
+    display: flex;
+    margin-left: 129px;
+    padding: 5px 10px;
+    border-radius: 29px;
+    background-color: #FFE4A0;
+}
+.mask{
+    border-image-source: url(/images/tick-gray.png);
+    
+}
+.mask:hover{
+        color: blue;
+        -webkit-mask-image:url(/images/tick-blue.png);
+        mask-image: url(/images/tick-blue.png);
+        /* -webkit-mask-size: 70%;
+        mask-size: 70%; */
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;    
+}
+footer{
+    padding:60px;
+}
